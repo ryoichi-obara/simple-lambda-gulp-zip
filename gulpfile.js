@@ -12,6 +12,6 @@ gulp.task('install-dependancies', () =>
     .pipe(install({ production: true })));
 
 gulp.task('build-zip', () =>
-  gulp.src(['./build/**/*'])
+  gulp.src(['./build/**/*'], { nodir: true, dot: true }) // nodir and dot option 
     .pipe(zip('simple-lambda.zip'))
     .pipe(gulp.dest('./build')));
