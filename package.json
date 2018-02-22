@@ -1,0 +1,40 @@
+{
+  "name": "simple-lambda-gulp-zip",
+  "description": "Inspect gulp-zip behavior between Windows and Mac.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ryoichi-obara"
+  },
+  "bugs": {
+    "url": "https://github.com/ryoichi-obara/simple-lambda-gulp-zip/issues"
+  },
+  "dependencies": {
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.199.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-zip": "^4.1.0"
+  },
+  "homepage": "http://ryoichi0102.hatenablog.com/",
+  "keywords": [
+    "AWS Lambda",
+    "Gulp",
+    "Lambda",
+    "Node.js"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/ryoichi-obara/simple-lambda-gulp-zip"
+  },
+  "scripts": {
+    "build": "npm i && gulp clean && babel src -d build && gulp install-dependancies",
+    "make": "npm run build && gulp build-zip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
