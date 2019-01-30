@@ -9,16 +9,16 @@
     "url": "https://github.com/ryoichi-obara/simple-lambda-gulp-zip/issues"
   },
   "dependencies": {
-    "moment": "^2.20.1"
+    "moment": "^2.24.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.199.0",
+    "aws-sdk": "^2.395.0",
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-install": "^1.1.0",
-    "gulp-zip": "^4.1.0"
+    "gulp-zip": "^4.2.0"
   },
   "homepage": "http://ryoichi0102.hatenablog.com/",
   "keywords": [
