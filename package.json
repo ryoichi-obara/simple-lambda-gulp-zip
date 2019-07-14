@@ -12,13 +12,13 @@
     "moment": "^2.24.0"
   },
   "devDependencies": {
-    "aws-sdk": "^2.402.0",
+    "aws-sdk": "^2.493.0",
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-install": "^1.1.0",
-    "gulp-zip": "^4.2.0"
+    "gulp-zip": "^5.0.0"
   },
   "homepage": "http://ryoichi0102.hatenablog.com/",
   "keywords": [
