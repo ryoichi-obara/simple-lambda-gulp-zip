@@ -9,7 +9,7 @@
     "url": "https://github.com/ryoichi-obara/simple-lambda-gulp-zip/issues"
   },
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "aws-sdk": "^2.493.0",
